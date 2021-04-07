@@ -1,12 +1,17 @@
 function compute()
 {
-    var pincipal = document.getElementById("principal").value;
-    var rate = document.getElementById("rate").value;
-    var year = document.getElementById("years").value;
+    var pincipal = document.getElementById("principal");
+    principal.valueOf();
+    var rate = document.getElementById("rate");
+    rate.valueOf();
+    var year = document.getElementById("years");
+    year.valueOf();
     var interest = principal*years*rate / 100;
-    
-    function SliderValue {
-       document.getElementById(rate).value;
+    interest.valueOf();
+
+    function SliderValue(slider) {
+        slider = document.getElementById("Slider_Val");
+        alert(slider.valueOf());
     }
 }
         
