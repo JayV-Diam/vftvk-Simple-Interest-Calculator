@@ -7,18 +7,17 @@
     </head>
     <body>
         <div class="maindiv">
-
+            <!-- header-->
             <h1>Simple Interest Calculator</h1>
 
             Amount <input type="number"  id="principal">  
             <br/><br/>
-
-            <span id="slider_val" style="color:black">
-                Rate <input type="range" id="rate" min="1" max="20" 
-                name="range" step="0.25" value="10.25" onchange="SliderValue(this.value)">
-            </span>
+            <!--interest rate referencing the slidervalue JS function-->
+            Interest Rate <input type="range" id="rate" min="1" max="20" 
+            name="range" step="0.25" value="10.25" onchange="SliderValue(this.value)">
+            <span id="sliderval">10.50%</span>
             <br/><br/>
-            
+            <!--dropdown list for years-->
             <label for="years">No. of Years</label> 
             <select name="number"  id="years">  
                 <option value=1>1</option>
@@ -29,15 +28,19 @@
                 <option value=6>6</option>
                 <option value=7>7</option>
                 <option value=8>8</option>
-                <option value=9>9</option>                <option value=10>10</option>
+                <option value=9>9</option>                
+                <option value=10>10</option>
                 </select>
                 <br/><br/>
-
-            <button onclick="compute()">Compute Interest </button>
+            <!--button with onclick event that reference the compute JS function-->
+            <button onclick="compute()"> Compute Interest </button>
+            <br><br>
+            <!--shows result-->
             <span id="result"></span>
             <br><br>
+
             <footer>
-                Everyone Can Get Rich
+                &copy; Everyone Can Get Rich
             </footer>            
         </div>     
     </body>      
