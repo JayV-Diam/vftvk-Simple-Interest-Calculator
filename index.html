@@ -10,11 +10,13 @@
             <!-- header-->
             <h1>Simple Interest Calculator</h1>
 
-            Amount <input type="number"  id="principal">  
+            <label for="principal">Amount </label>
+            <input type="number"  id="principal">  
             <br/><br/>
 
             <!--interest rate referencing the slidervalue() JS function-->
-            Interest Rate <input type="range" id="rate" min="1" max="20" 
+            <label for = "rate">Interest Rate </label>
+            <input type="range" id="rate" min="1" max="20" 
             name="range" step="0.25" value="10.25" onchange="SliderValue(this.value)">
             <span id="sliderval">10.50%</span>
             <br/><br/>

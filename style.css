@@ -8,15 +8,27 @@ h1{
     color:grey;
     font-family:verdana;
 }
+
+footer {
+    text-align: left;
+}
+#years{
+    position:relative;
+    text-align: left;
+}
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
+    position: relative;
+    width: 500px;
     padding: 20px;
     border-style: solid;
     border-radius: 25px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
+
  #result1_1{
      background-color: yellow;
  }
