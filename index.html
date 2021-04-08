@@ -12,11 +12,13 @@
 
             Amount <input type="number"  id="principal">  
             <br/><br/>
-            <!--interest rate referencing the slidervalue JS function-->
+
+            <!--interest rate referencing the slidervalue() JS function-->
             Interest Rate <input type="range" id="rate" min="1" max="20" 
             name="range" step="0.25" value="10.25" onchange="SliderValue(this.value)">
             <span id="sliderval">10.50%</span>
             <br/><br/>
+
             <!--dropdown list for years-->
             <label for="years">No. of Years</label> 
             <select name="number"  id="years">  
@@ -32,11 +34,16 @@
                 <option value=10>10</option>
                 </select>
                 <br/><br/>
-            <!--button with onclick event that reference the compute JS function-->
+
+            <!--button with onclick event that reference the compute() JS function-->
             <button onclick="compute()"> Compute Interest </button>
             <br><br>
+
             <!--shows result-->
-            <span id="result"></span>
+            <span id="result1"></span><span id="result1_1"></span><br>
+            <span id="result2"></span><span id="result2_2"></span><br>
+            <span id="result3"></span><span id="result3_3"></span><br>
+            <span id="result4"></span><span id="result4_4"></span><br>
             <br><br>
 
             <footer>

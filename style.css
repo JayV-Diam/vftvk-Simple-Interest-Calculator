@@ -8,13 +8,24 @@ h1{
     color:grey;
     font-family:verdana;
 }
-
 .maindiv {
     background-color: white;
     color: black;
     width: 300px;
     padding: 20px;
     border-style: solid;
-    border-width: 25px;
+    border-radius: 25px;
     margin: auto;
 }
+ #result1_1{
+     background-color: yellow;
+ }
+  #result2_2{
+     background-color: yellow;
+ }
+  #result3_3{
+     background-color: yellow;
+ }
+  #result4_4{
+     background-color: yellow;
+ }
